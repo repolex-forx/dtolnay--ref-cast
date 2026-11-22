@@ -1,0 +1,11 @@
+{
+  "org": "dtolnay",
+  "repo": "ref-cast",
+  "versions": [
+    {
+      "commit": "8cea9d561e44ec4ebaf4de1ba64bedfdf2944138",
+      "tag": "1.0.25",
+      "parsed_at": "2026-11-22T09:47:15.921064+00:00"
+    }
+  ]
+}
