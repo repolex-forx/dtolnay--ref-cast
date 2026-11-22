@@ -58,6 +58,76 @@
       ],
       "ast": [
         "aggregate/ast/8cea9d561e44ec4ebaf4de1ba64bedfdf2944138/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/8cea9d561e44ec4ebaf4de1ba64bedfdf2944138.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "ref-cast-impl",
+          "ecosystem": "CARGO",
+          "version": "=1.0.25",
+          "githubOrg": "dtolnay",
+          "githubRepo": "ref-cast",
+          "githubUrl": "https://github.com/dtolnay/ref-cast",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rustversion",
+          "ecosystem": "CARGO",
+          "version": "1.0.13",
+          "githubOrg": "dtolnay",
+          "githubRepo": "rustversion",
+          "githubCommit": "01eae109f33b47fc93243db4407b9d4df68abccf",
+          "githubTag": "1.0.13",
+          "githubUrl": "https://github.com/dtolnay/rustversion",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "trybuild",
+          "ecosystem": "CARGO",
+          "version": "1.0.108",
+          "githubOrg": "dtolnay",
+          "githubRepo": "trybuild",
+          "githubCommit": "89963402acbd517e9fd0697b8152461c823037d0",
+          "githubTag": "1.0.108",
+          "githubUrl": "https://github.com/dtolnay/trybuild",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "quote",
+          "ecosystem": "CARGO",
+          "version": "1.0.47",
+          "githubOrg": "dtolnay",
+          "githubRepo": "quote",
+          "githubCommit": "723dcb47d3f0ddc896e17287c8a8d3f2ea2317d5",
+          "githubTag": "1.0.47",
+          "githubUrl": "https://github.com/dtolnay/quote",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quote-1.0.47/src/lib.rs"
+        },
+        {
+          "packageName": "proc-macro2",
+          "ecosystem": "CARGO",
+          "version": "1.0.107",
+          "githubOrg": "dtolnay",
+          "githubRepo": "proc-macro2",
+          "githubCommit": "ed8a5497669cd63db33bf24646f261b012bbbc4a",
+          "githubTag": "1.0.107",
+          "githubUrl": "https://github.com/dtolnay/proc-macro2",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.107/src/lib.rs"
+        },
+        {
+          "packageName": "syn",
+          "ecosystem": "CARGO",
+          "version": "2.0.119",
+          "githubOrg": "dtolnay",
+          "githubRepo": "syn",
+          "githubCommit": "3295f9e9841785ac88a5e558c884854d5fb7d67f",
+          "githubTag": "2.0.119",
+          "githubUrl": "https://github.com/dtolnay/syn",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/syn-2.0.119/src/token.rs"
+        }
       ]
     }
   ],
